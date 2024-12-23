@@ -49,7 +49,7 @@ const Page = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-6 mx-6'>
           {todos.map((todo, index) => (
             <div key={index} className='border-slate-600 border rounded-md  bg-slate-200 hover:bg-purple-300 p-4 text-center'>
-              <Image src={todo.image} alt={todo.title} width={100} height={100} className='mb-4 ml-40 sm:ml-20 md:ml-16 lg:ml-20'/>
+              <Image src={todo.image} alt={todo.title} width={100} height={100} className='mb-4 ml-20 sm:ml-20 md:ml-16 lg:ml-20'/>
               <h2 className='font-bold text-[16px] hover:text-blue-600'>{todo.title}</h2>
               <p className='font-normal font-serif text-sm hover:text-orange-700'>{todo.description}</p>
               <p className='font-semibold'>${todo.price}</p>
