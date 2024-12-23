@@ -10,7 +10,7 @@ const Navbar = () => {
       <h1 className='text-xl md:text-2xl lg:text-2xl font-bold hover:text-purple-600'>Data Fetching</h1>
       </div>
       <div className='flex justify-center align items-center gap-8'>
-      <ul className='flex justify-start gap-6'>
+      <ul className='flex justify-start gap-4'>
         <li className='text-[20px] font-semibold md:font-bold lg:font-bold'><Link href="/">Home</Link></li>
         <li className='text-[20px] font-semibold md:font-bold lg:font-bold'><Link href="ClientSide">CSR</Link></li>
         <li className='text-[20px] font-semibold md:font-bold lg:font-bold'><Link href="ServerSide">SSR</Link></li>
