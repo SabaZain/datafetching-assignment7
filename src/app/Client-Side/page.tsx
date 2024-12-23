@@ -2,9 +2,17 @@
 import React , {useEffect, useState} from 'react';
 import Image from 'next/image';
 
+interface Product {
+    id: number;
+    title: string;
+    description: string;
+    price: number;
+    image: string;
+}
+
 const Page = () => {
     const [loading, setLoading] = useState(true);
-    const[todos, setTodos] = useState<any[]>([]);
+    const[todos, setTodos] = useState<Product[]>([]);
 
     useEffect(() => {
       const fetchData = async() => {
