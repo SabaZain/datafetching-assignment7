@@ -53,7 +53,7 @@ const Page = () => {
               <h2 className='font-bold text-[16px] hover:text-blue-600'>{todo.title}</h2>
               <p className='font-normal font-serif text-sm hover:text-orange-700'>{todo.description}</p>
               <p className='font-semibold'>${todo.price}</p>
-              <button className='bg-black hover:bg-white text-white hover:text-black hover:font-bold p-2 rounded-md mt-3'>Add To Cart</button>
+              <button className='bg-black hover:bg-white text-white hover:text-black hover:font-bold p-1 rounded-md mt-3'>Add To Cart</button>
               </div>
           ))}
         </div>
