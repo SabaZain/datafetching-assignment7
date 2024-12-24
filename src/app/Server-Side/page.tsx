@@ -24,8 +24,10 @@ interface Book {
                 <h1 className='text-[16px] text-center font-bold'>Id: {book.id}</h1>
                 <h2 className='text-xl text-center text-blue-950 font-semibold'>Name: {book.name}</h2>
                 <p className='text-center text-green-950 font-medium'>Type: {book.type}</p>
-                <button className='bg-black hover:bg-white text-white hover:text-black hover:font-bold p-1 mx-28 sm:mx-28 md:mx-40 lg:mx-56 mt-3 mb-3 rounded-md'>See More</button>
-            </div>
+                <div>
+                <button className='bg-black hover:bg-white text-white hover:text-black hover:font-bold p-2 mt-3 mb-3 rounded-md'>See More</button>
+                </div>
+                </div>
             ))
         }
       </div>
